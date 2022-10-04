@@ -1,0 +1,51 @@
+body {
+    
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.cont {
+    width: 95%;
+    margin: 0 auto;
+    background-image: url('pic.png');
+    background-size:contain;
+    background-position: 20px 20px;
+}
+#titulo {
+    padding-top: 0.25em;
+    text-align: center;
+    color: white;
+    animation: ani 5s ease-in-out 0s infinite normal none;
+}
+@keyframes ani {
+    30%{
+        color: red;
+    }
+    60%{
+        color: green;
+    }
+    90%{
+        color: blue;
+    }
+}
+.btn {
+    font-size: 2em;
+    width: 98%;
+    background-color: black;
+    height: 85.5vh;
+    color: white;
+    border: 10px dotted gray;
+}
+#btnEnter {
+    width: 35%;
+    height: 40px;
+    color: white;
+    font-size: 1.2em;
+    background-color: rgb(103, 134, 103);
+    animation: ani 5s ease-in-out 0s infinite normal none;
+}
+#enter {
+    width: 35%;
+    color: rgb(151, 8, 8);
+    font-size: 1.3em;
+    font-weight: bolder;
+}
